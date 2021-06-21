@@ -14,7 +14,6 @@ and/or phone call of it doing so.
 
 
 ### To Do:
-- Obtain available seat count (int) from Class# (str)
 - Notify via SMS/call when available seats > 0
 
 
