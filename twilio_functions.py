@@ -19,3 +19,7 @@ def text_me(text_message):
                            to=my_number)
 
     print('Sent you a text message!')
+
+
+if __name__ == '__main__':
+    pass
