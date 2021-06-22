@@ -14,7 +14,7 @@ and/or phone call of it doing so.
 
 
 ### To Do:
-- Notify via SMS/call when available seats > 0
+- Create a nice UI (for people who are into GUI crap)
 
 
 ---
