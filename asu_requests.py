@@ -7,6 +7,8 @@ def get_course_seats(url):
 
     # Set cookies parameter for BeautifulSoup
     cookies = {"onlineCampusSelection": "O"}
+
+    # Parse the HTML data
     soup = BeautifulSoup(requests.get(url, cookies=cookies).content, "html.parser")
 
     # Grab the string of available seats (will return 'x of y' string, ie 12 of 100)
