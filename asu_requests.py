@@ -11,7 +11,7 @@ def get_course_seats(url):
     # Parse the HTML data
     soup = BeautifulSoup(requests.get(url, cookies=cookies).content, "html.parser")
 
-    # Grab the string of available seats (will return 'x of y' string, ie 12 of 100)
+    # Grab the string of available seats (will return 'x of y' string, ie '12 of 100')
     results = soup.select_one(".availableSeatsColumnValue").get_text(strip=True, separator=" ")
 
     # Retrieve the two ints (available and total seats)
