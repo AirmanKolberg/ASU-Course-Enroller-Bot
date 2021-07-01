@@ -13,8 +13,11 @@ course if and whenever possible, and then notify you through either text
 and/or phone call of it doing so.
 
 
-### To Do:
-- Create a nice UI (for people who are into GUI crap)
+## Install Instructions:
+- run the installer `./installer.sh`
+- run the application `python3 main.py`
+
+You're done.
 
 
 ---
