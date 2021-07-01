@@ -15,7 +15,7 @@ and/or phone call of it doing so.
 
 ## Install Instructions:
 - run the installer `./installer.sh`
-- run the application `python3 main.py`
+- run the application `python3 app.py`
 
 You're done.
 
