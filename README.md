@@ -15,6 +15,7 @@ and/or phone call of it doing so.
 
 ## Install Instructions:
 - run the installer `./installer.sh`, or simply `pip install -r requirements.txt`
+- obtain a free Twilio account and input necessary information into a `secrets.py` file (see `twilio_functions.py` for more details)
 - run the application `python3 app.py`
 
 You're done.
