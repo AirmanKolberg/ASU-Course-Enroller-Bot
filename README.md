@@ -14,7 +14,7 @@ and/or phone call of it doing so.
 
 
 ## Install Instructions:
-- run the installer `./installer.sh`
+- run the installer `./installer.sh`, or simply `pip install -r requirements.txt`
 - run the application `python3 app.py`
 
 You're done.
